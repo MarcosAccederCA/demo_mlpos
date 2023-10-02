@@ -34,7 +34,7 @@ def score():
 
 if __name__ == '__main__':
 
-    MODEL_PICKLE_NAME = "/Users/marcosdurbano/Documents/marcos/python/demo_mlops/scoring/model.pickle"
+    MODEL_PICKLE_NAME = "model.pickle"
     file = open(MODEL_PICKLE_NAME, 'rb')
     model = pickle.load(file)
 
